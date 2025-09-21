@@ -25,7 +25,7 @@ process_url = st.sidebar.button("Process URL")
 vector_store_path = "faiss_index"
 
 # Define the local path for your Hugging Face model
-HUGGINGFACE_MODEL_PATH = r"C:\Users\mrsok\all-MiniLM-L6-v2"
+HUGGINGFACE_MODEL_PATH = r"C:\Your_File_path\all-MiniLM-L6-v2"
 
 main_placeholder = st.empty()
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
